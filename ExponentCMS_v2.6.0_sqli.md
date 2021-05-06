@@ -11,7 +11,7 @@
 
 1. The security issue is occured at file \framework\modules\eaas\controllers\eaasController.php
 The line number nearby 76.
-   public function api() {
+   ```public function api() {
         if (empty($this->params['apikey'])) {
             $_REQUEST['apikey'] = true;  // set this to force an ajax reply
             $ar = new expAjaxReply(550, 'Permission Denied', 'You need an API key in order to access Exponent as a Service', null);
@@ -39,4 +39,6 @@ The line number nearby 76.
                 }
             }
         }
-    }
+    }```
+****
+
