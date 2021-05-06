@@ -7,6 +7,7 @@ V5.7 SP2
 Windows 10* PHP 5.4.5* Apache 2.4.23
 ## Author
 pang0lin@webray.com.cn inc.
+
 #Vulnerability Description AND recurrence:
 The security issue is occured at file /dede/sys_safe.php.
 ```
@@ -39,7 +40,7 @@ $faqs[$i]['answer'] = stripslashes(trim($answer[$i]));
 ```
 How to use it? First, we need to login in and request it like blow.
 ```
-POST /uploads/dede/sys_safe.php HTTP/1.1
+POST /dede/sys_safe.php HTTP/1.1
 Host: test.com
 Content-Length: 903
 Cache-Control: max-age=0
