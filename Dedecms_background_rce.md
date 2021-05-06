@@ -7,8 +7,7 @@ V5.7 SP2
 Windows 10* PHP 5.4.5* Apache 2.4.23
 ## Author
 pang0lin@webray.com.cn inc.
-
-#Vulnerability Description AND recurrence:
+# Vulnerability Description AND recurrence:
 The security issue is occured at file /dede/sys_safe.php.
 ```
     //保存问答数组
