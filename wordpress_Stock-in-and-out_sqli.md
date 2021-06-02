@@ -8,6 +8,7 @@ Windows 10* PHP 5.4.5* Apache 2.4.23
 ## Author
 pang0lin@webray.com.cn inc.
 # Vulnerability Description AND recurrence:
+The plugin has a functionality with Contributor role as the lowest access level takes in GET parameter product_id. The parameter is passed into SQL select statement without proper filter, validation or escaping therefore leads to sql injection.
 The security issue is occured at file \wp-content\plugins\stock-in\includes\settings.php
 ```
  <?php
