@@ -5,7 +5,7 @@
     
 ## Affects Plugins
     Side Menu <= 3.1.6 (the latest version at this time)
-    
+    https://wordpress.org/plugins/side-menu/
 ## Author
     pang0lin@webray.com.cn inc
     
