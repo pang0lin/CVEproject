@@ -1,4 +1,4 @@
-# Side Menu <= 3.1.6 - Authenticated (admin+) SQL Injection
+# Side Menu <= 3.1.6 - Authenticated SQL Injection
 
 ## Description
     The menu update functionality of the plugin, available to Administrator users takes the id GET parameter and uses it into an SQL statement without proper sanitisation, validation or escaping, therefore leading to a SQL Injection issue.
