@@ -1,9 +1,9 @@
-# Side Menu <= 3.1.6 - Authenticated SQL Injection
+# Side Menu Lite <= 2.2.1 - Authenticated SQL Injection
 ## Description
     The menu update functionality of the plugin, available to Administrator users takes the id GET parameter and uses it into an SQL statement without proper sanitisation, validation or escaping, therefore leading to a SQL Injection issue.   
 ## Affects Plugins
-    Side Menu <= 3.1.6 (the latest version at this time)
-    https://wordpress.org/plugins/side-menu/
+    Side Menu Lite <= 2.2.1 (the latest version at this time)
+    https://wordpress.org/plugins/side-menu-lite/
 ## Author
     pang0lin@webray.com.cn inc 
 ## Detail
