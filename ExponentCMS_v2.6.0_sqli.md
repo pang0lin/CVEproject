@@ -3,6 +3,7 @@
   ExponentCMS unauthticate sql injection
 ## Vulnerability Version 
   v2.6.0
+  https://github.com/exponentcms/exponent-cms/issues/1542
 ## Recurring environment
   * Windows 10* PHP 5.4.5* Apache 2.4.23
 ## Author
